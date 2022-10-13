@@ -57,7 +57,7 @@
                 }
             });
           
-          /*下面是把事件从网页传递进spline场景内*/
+          /*下面是把事件从网页外传递进spline场景内*/
           document.getElementById("btn").onclick = function () {
             spline.emitEvent('mouseDown', '2');
           };
